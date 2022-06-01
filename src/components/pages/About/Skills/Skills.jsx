@@ -28,24 +28,14 @@ const skillData = [
     percentage: "70%",
   },
   {
-    id: 6,
-    title: "ExpressJS",
-    percentage: "60%",
-  },
-  {
     id: 7,
-    title: "MongoDB",
-    percentage: "50%",
+    title: "Git, Github",
+    percentage: "80%",
   },
   {
     id: 8,
-    title: "Git, Github",
-    percentage: "80%",
-  },
-  {
-    id: 9,
-    title: "Git, Github",
-    percentage: "80%",
+    title: "PTS, Figmal",
+    percentage: "60%",
   },
 ];
 

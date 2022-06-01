@@ -1,42 +1,30 @@
 import React from "react";
-import image1 from "../../../images/portfolio/project-01.jpg";
-import image2 from "../../../images/portfolio/project-02.jpg";
-import image3 from "../../../images/portfolio/project-03.jpg";
-import image4 from "../../../images/portfolio/project-04.jpg";
+import image1 from "../../../images/portfolio/SGU.jpg";
+import image2 from "../../../images/portfolio/CyberSoft.png";
 import PortfolioItem from "./PortfolioItem";
 
 const portfolioData = [
   {
     id: 1,
     image: image1,
-    title: "Space Bootstrap 5 Multipurpose Template",
-    link: "#0",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+    title: "SGU",
+    link: "https://sgu.edu.vn/",
+    description: "2010-2012 Saigon University",
   },
   {
     id: 2,
     image: image2,
-    title: "eCommerce HTML Bootstrap 5 UI Kit",
-    link: "#0",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
-  },
-  {
-    id: 3,
-    image: image3,
-    title: "Basic – Tailwind CSS Template",
-    link: "#0",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
-  },
-  {
-    id: 4,
-    image: image4,
-    title: "Gearix Car repair App",
-    link: "#0",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+    title: "CyberSoft Academy",
+    link: "https://cybersoft.edu.vn/",
+    description: (
+      <div>
+        2020-present
+        <br />
+        CyberSoft exploits the demand for programmers, connects jobs with
+        businesses and integrates projects with the latest technology into
+        active training methods for students..
+      </div>
+    ),
   },
 ];
 

@@ -10,7 +10,7 @@ const PortfolioItem = (props) => {
           <img
             src={image}
             alt="coverImage"
-            className="w-full h-full object-cover object-center"
+            className="w-full object-cover object-center"
           />
           <div className="absolute opacity-0 transition duration-200 bg-purple-100 bg-opacity-80 w-full flex items-center justify-center h-full left-0 top-0 group-hover:opacity-100 group-hover:visible">
             <ul className="flex flex-wrap">

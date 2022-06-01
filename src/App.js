@@ -1,3 +1,4 @@
+import OTP from "./components/OTP/OTP";
 import Footer from "./components/sections/Footer/Footer";
 import Navbar from "./components/sections/Navbar/Navbar";
 import ProfileCover from "./components/sections/ProfileCover/ProfileCover";
@@ -17,7 +18,7 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }

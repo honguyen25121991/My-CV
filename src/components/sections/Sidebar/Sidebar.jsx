@@ -54,15 +54,16 @@ const Sidebar = () => {
         <h3 className="text-md mb-2 uppercase font-medium text-gray-800">
           About Me
         </h3>
-        <div className="font-thin text-gray-400">
-          <div>Birth day:06/01/1992</div>
-          <div>Gender: Male</div>
-          <div>My contact :0338037039</div>
+        <div className="font-thin text-gray-800">
           <div>
             {" Address : "}
-            Hung Vuong Apartment,11 Dang Thai Than Street, wards 11 , district 5
-            , HCM city
+            Hung Vuong Apartment,11 Dang Thai Than Street, Wards 11 , District 5
+            , HCM City
           </div>
+          <div>Phone :0338037039</div>
+
+          <div>Birth day:06/01</div>
+          <div>Gender: Male</div>
         </div>
       </div>
     </aside>

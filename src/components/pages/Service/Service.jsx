@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBootstrap, FaCode, FaHtml5, FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import OTP from "../../OTP/OTP";
 import ServiceItem from "./ServiceItem";
 
 const serviceData = [
@@ -56,6 +57,7 @@ const Service = () => {
           <ServiceItem service={service} key={id} />
         ))}
       </div>
+      <OTP />
     </section>
   );
 };

@@ -19,14 +19,15 @@ const navbarData = [
   },
   {
     id: 2,
-    title: "My Project",
-    to: "/services",
+    title: "Education",
+    to: "/works",
   },
   {
     id: 3,
-    title: "Works",
-    to: "/works",
+    title: "My Project",
+    to: "/services",
   },
+
   // {
   //   id: 4,
   //   title: "Blogs",
