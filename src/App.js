@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <div>Ho Nguyen My CV</div>
+        <div>Ho Nguyen My CV Update</div>
       </header>
     </div>
   );
