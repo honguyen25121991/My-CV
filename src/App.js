@@ -20,7 +20,6 @@ function App() {
         </div>
       </div>
       <Footer />
-      <Download />
     </main>
   );
 }

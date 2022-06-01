@@ -6,7 +6,7 @@ class Download extends Component {
     return (
       <div>
         <a href={Pdf} target="_blank">
-          Download Pdf
+          Download My CV
         </a>
       </div>
     );

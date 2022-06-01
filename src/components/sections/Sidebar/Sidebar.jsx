@@ -10,6 +10,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import profile from "../../../images/profile.jpg";
+import Download from "../../CvPdf";
 
 const socials = [
   {
@@ -57,13 +58,14 @@ const Sidebar = () => {
         <div className="font-thin text-gray-800">
           <div>
             {" Address : "}
-            Hung Vuong Apartment,11 Dang Thai Than Street, Wards 11 , District 5
-            , HCM City
+            Hung Vuong Apartment,11 Dang Thai Than Street, District 5, Ward 11,
+            Dang Thai Than Street ,Ho Chi Minh City , Vietnam
           </div>
           <div>Phone :0338037039</div>
 
           <div>Birth day:06/01</div>
           <div>Gender: Male</div>
+          <Download />
         </div>
       </div>
     </aside>
