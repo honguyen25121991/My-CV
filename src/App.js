@@ -1,3 +1,4 @@
+import Download from "./components/CvPdf";
 import OTP from "./components/OTP/OTP";
 import Footer from "./components/sections/Footer/Footer";
 import Navbar from "./components/sections/Navbar/Navbar";
@@ -19,6 +20,7 @@ function App() {
         </div>
       </div>
       <Footer />
+      <Download />
     </main>
   );
 }

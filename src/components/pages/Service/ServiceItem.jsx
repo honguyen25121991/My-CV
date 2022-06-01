@@ -13,7 +13,7 @@ const ServiceItem = (props) => {
 
         <h3 className="text-lg font-medium text-gray-800 mb-2">{title}</h3>
         <p className="text-gray-400">{description}</p>
-        <a href={link}>{link}</a>
+        <a href={link}>{title}</a>
       </div>
     </div>
   );

@@ -1,5 +1,11 @@
 import React from "react";
-import { FaBootstrap, FaCode, FaHtml5, FaReact } from "react-icons/fa";
+import {
+  FaBootstrap,
+  FaCode,
+  FaHtml5,
+  FaReact,
+  FaJsSquare,
+} from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import OTP from "../../OTP/OTP";
 import ServiceItem from "./ServiceItem";
@@ -9,12 +15,12 @@ const serviceData = [
     id: 1,
     icon: <FaCode />,
     title: "Clone Udemy",
-    description: "",
+    description: "HTML CSS SCSS",
     link: "https://udemy-demo.vercel.app/",
   },
   {
     id: 2,
-    icon: <FaHtml5 />,
+    icon: <FaJsSquare />,
     title: "Todo List",
     description: "JavaScript ECMA6 ",
     link: "https://todolist-flame-two.vercel.app/",
@@ -25,6 +31,7 @@ const serviceData = [
     title: "Frontend Development",
     description:
       "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+    link: " https://movie-start.vercel.app/",
   },
   {
     id: 4,
