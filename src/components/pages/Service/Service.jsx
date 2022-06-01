@@ -8,16 +8,16 @@ const serviceData = [
   {
     id: 1,
     icon: <FaCode />,
-    title: "Web Design",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+    title: "Clone Udemy",
+    description: "",
+    link: "https://udemy-demo.vercel.app/",
   },
   {
     id: 2,
     icon: <FaHtml5 />,
-    title: "Web Development",
-    description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+    title: "Todo List",
+    description: "JavaScript ECMA6 ",
+    link: "https://todolist-flame-two.vercel.app/",
   },
   {
     id: 3,
