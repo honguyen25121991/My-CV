@@ -64,7 +64,7 @@ const Service = () => {
           <ServiceItem service={service} key={id} />
         ))}
       </div>
-      <OTP />
+      {/* <OTP /> */}
     </section>
   );
 };
