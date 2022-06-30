@@ -20,7 +20,7 @@ const InputOTP = (props) => {
   };
   return (
     <div className="input-otp-container">
-      <div className="title">Enter verification code</div>
+      <div className="title">Enter verification code111</div>
       <OtpInput
         value={otp}
         onChange={handleChange}
